@@ -1,6 +1,7 @@
 import discord
 import os
 from background import keep_alive
+from autorestart import init_auto_restart
 init_auto_restart(interval=14400)
 keep_alive()
 
