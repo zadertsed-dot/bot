@@ -1,6 +1,7 @@
 import discord
 import os
 
+
 # Конфигурация
 YOUR_USER_ID = 675065037030817792  # Ваш Discord ID
 TARGET_CHANNEL_ID = 1421130256202338486  # ID канала для отслеживания
@@ -60,4 +61,4 @@ async def on_message(message):
         # Если ошибка, не удаляем сообщение, чтобы не потерять его
 
 # Запуск бота
-client.run("TOKEN")
+client.run(os.getenv('TOKEN'))
