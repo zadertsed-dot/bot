@@ -1,6 +1,6 @@
 import discord
 import os
-
+keep_alive()
 
 # Конфигурация
 YOUR_USER_ID = 675065037030817792  # Ваш Discord ID
