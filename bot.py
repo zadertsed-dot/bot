@@ -1,5 +1,6 @@
 import discord
 import os
+from background import keep_alive
 keep_alive()
 
 # Конфигурация
